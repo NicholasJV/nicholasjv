@@ -1,0 +1,61 @@
+
+body, html {
+  margin: 0 !important;
+  background-color: #797F8C; /* #8A8D9D /* #0D84FA; /* $deepBlueSky */
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.page-bottom, .page-top {
+  height: 1px;
+  display: none;
+}
+
+/************************
+ * REACT-APP boilerplate
+ ************************/
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+/******************************
+ * Fonts imported from Google:
+ ******************************/
+
+  /*font-family: 'Overpass Mono', monospace;*/
+  /*font-family: 'Oswald', sans-serif;*/
+  /*font-family: 'Rubik', sans-serif; */
+  /*font-family: 'Archivo Black', sans-serif; */
+  /*font-family: 'Slabo 27px', serif;*/
+  /*font-family: 'Alfa Slab One', cursive; */
+/**
+ * FAVES:
+ */
+ /*font-family: 'Fira Sans Extra Condensed', sans-serif;*/
+  /*font-family: 'Montserrat', sans-serif;*/

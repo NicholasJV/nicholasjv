@@ -1,0 +1,78 @@
+/****************
+ * MEDIA QUERIES
+ ***************/
+
+@media (max-height: 800px) {
+  .dev-symbol {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .header {
+    margin-top: 30%;
+  }
+  .abt.row {
+    /*-webkit-flex-direction: column;*/
+    /*flex-direction: column;*/
+  }
+  .abt-col {
+    width: 90%;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    height: 45%;
+  }
+  .abt-section {
+
+  }
+}
+
+@media (max-width: 777px), (max-height: 700px) {
+  .link {
+    margin: 1rem; /* 20px 20px; */
+  }
+  .me-title {
+    font-size: 3rem;
+  }
+  .icon-wrapper {
+    font-size: 4rem;
+  }
+  .dev-title {
+    display: none;
+    font-size: 2rem;
+  }
+  .header {
+    margin-top: 30%;
+    position: relative;
+  }
+  .header-container {
+    margin-top: 50%;
+    margin-bottom: calc(100vh - 40px);
+    /*margin-bottom: 40px;*/
+    /*  40px so the 'ABOUT'
+    section title shows   */
+  }
+}
+
+@media (max-width: 580px){
+  .header {
+    height: 100px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: vertical;
+  }
+  .icon-wrapper {
+    padding: 1px !important;
+  }
+  .me {
+    margin: auto auto;
+    padding: 1px;
+  }
+  .abt-text {
+    opacity: 0.2;
+  }
+}
