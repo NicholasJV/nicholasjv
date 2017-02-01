@@ -33,6 +33,7 @@
   }
   .me-title {
     font-size: 3rem;
+    padding-bottom: 1px;
   }
   .icon-wrapper {
     font-size: 4rem;
@@ -42,15 +43,26 @@
     font-size: 2rem;
   }
   .header {
-    margin-top: 30%;
+    margin-top: 20vh;
     position: relative;
   }
   .header-container {
-    margin-top: 50%;
-    margin-bottom: calc(100vh - 40px);
-    /*margin-bottom: 40px;*/
-    /*  40px so the 'ABOUT'
-    section title shows   */
+  /*NOTE: margin-bottom must be recalculated
+      * if other header layout changes are made */
+    margin-bottom: calc(100vh - 7em - 20vh - 40px);
+    /**
+     * margin explanation:
+     *  screenSize - (title + icon height)
+     *   - header margin - ABOUT title
+     */
+  }
+  .abt-col {
+    margin-bottom: 1px;
+    padding: 20px !important;
+    /* need !important to override bootstrap */
+  }
+  .back-to-top {
+    display: block;
   }
 }
 
@@ -67,12 +79,13 @@
   }
   .icon-wrapper {
     padding: 1px !important;
+    /* need !important to override bootstrap */
   }
   .me {
     margin: auto auto;
     padding: 1px;
   }
-  .abt-text {
+  /*.abt-text {
     opacity: 0.2;
-  }
+  }*/
 }

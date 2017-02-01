@@ -22,8 +22,6 @@
   margin-top: 40px;
   padding: 0px 60px;
   color: white;
-    font-family: 'Libre Franklin', sans-serif;
-    font-family: 'Arsenal', sans-serif;
   font-family: 'Roboto Condensed', sans-serif;
   font-style: bold;
   letter-spacing: 1px;
@@ -50,6 +48,7 @@
 }
 
 .icon-wrapper {
+  padding-top: 1px;
   margin: auto;
   font-size: 5rem;
 }
@@ -135,6 +134,7 @@ hr {
   /*background-color: rgba(225, 226, 234,1);*/
   text-align: left;
   padding: 30px !important; /* 0px 10px */;
+    /* need !important to override bootstrap */
   margin: 0px auto 20px auto; /* 0px 10px */;
   font-family: 'Roboto Condensed';
   font-size: 1.75rem;
@@ -167,7 +167,6 @@ hr {
 
 .portrait-icon {
   border: 0px dashed blue;
-  /* opacity: 1; */
   float: left;
   padding: 10px;
 }
@@ -175,6 +174,15 @@ hr {
 .col-wrapper {
   padding: 1rem 4rem;
 }
+
+.back-to-top {
+  margin: auto;
+  display: none;
+}
+.back-to-top:hover{
+  text-shadow: 0px 1px 1px orange;
+}
+
 
 /************************
  * imported font options:

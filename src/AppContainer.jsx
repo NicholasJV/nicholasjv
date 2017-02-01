@@ -16,13 +16,14 @@ export default class FlatParallax extends Component {
   }
 
   toggleScroll() {
-    var vH = window.innerHeight
-    console.log('toggle function hit, direction:', this.state.atBottom, ' window height:', vH)
+    var VH = window.innerHeight
+    var paddedVH = VH + 100
+    console.log('toggle hit, dir:', this.state.atBottom, ' window height:', VH)
     if(this.state.atBottom) {
       window.scrollTo({top: 0, left: 0, behavior: 'smooth'})
     // } else if (window.innerHeight < SET THIS MEDIA BREAKPOINT) {
     } else {
-      window.scrollTo({top: vH, left: 0, behavior: 'smooth'})
+      window.scrollTo({top: paddedVH, left: 0, behavior: 'smooth'})
     }
     this.setState({ atBottom: !this.state.atBottom })
   }
@@ -31,16 +32,14 @@ export default class FlatParallax extends Component {
     return (
       <div className="App">
         <div className="page-top"></div>
-        {/* <div className="container"> */}
           <Parallax strength={400} blur={50}>
             <div className="header-container">
               <header className="header">
-                <div>
+                <div onClick={this.toggleScroll}>
                   <h1 className="me-title">Nicholas Vanvoorthuysen</h1>
                 </div>
-                {/* <div className="link-container"> */}
+                {/* <hr/> */}
                 <h2 className="icon-wrapper">
-                  {/* <FontAwesome name="envelope" className="link" /> */}
                   <a href="#" className="link">
                     <i className="fa fa-envelope link"></i>
                   </a>
@@ -50,8 +49,6 @@ export default class FlatParallax extends Component {
                   <a href="https://github.com/NicholasJV" className="link">
                     <i className="fa fa-github link"></i>
                   </a>
-                  {/* <FontAwesome name="github" className="link" /> */}
-                  {/* <i className="fa fa-github"></i> */}
                 </h2>
                 {/* </div> */}
                 <h3 className="dev-title">software developer</h3>
@@ -101,6 +98,8 @@ export default class FlatParallax extends Component {
                     </ul>
                     <hr/>
                   </div>
+                  <h4 className="abt-col-title back-to-top"
+                      onClick={this.toggleScroll}> - back to top -</h4>
                 </div>
               {/* </div> */}
             </div>
