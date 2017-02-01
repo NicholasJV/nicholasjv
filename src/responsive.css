@@ -8,13 +8,16 @@
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1025px) {
   .header {
     margin-top: 30%;
   }
-  .abt.row {
-    /*-webkit-flex-direction: column;*/
-    /*flex-direction: column;*/
+  .me-title {
+    font-size: 3rem;
+    padding-bottom: 1px;
+  }
+  .icon-wrapper {
+    font-size: 4rem;
   }
   .abt-col {
     width: 90%;
@@ -22,12 +25,15 @@
     margin-bottom: 25px;
     height: 45%;
   }
+  .header {
+    margin-top: 20vh;
+  }
   .abt-section {
-
+    /*background-color: rgba(255,255,255,0.9);*/
   }
 }
 
-@media (max-width: 777px), (max-height: 700px) {
+@media (max-width: 1024px), (max-height: 700px) {
   .link {
     margin: 1rem; /* 20px 20px; */
   }
@@ -39,7 +45,7 @@
     font-size: 4rem;
   }
   .dev-title {
-    display: none;
+    /*display: none;*/
     font-size: 2rem;
   }
   .header {
@@ -50,8 +56,7 @@
   /*NOTE: margin-bottom must be recalculated
       * if other header layout changes are made */
     margin-bottom: calc(100vh - 7em - 20vh - 40px);
-    /**
-     * margin explanation:
+    /** Margin explanation:
      *  screenSize - (title + icon height)
      *   - header margin - ABOUT title
      */
@@ -63,12 +68,13 @@
   }
   .back-to-top {
     display: block;
+    padding-bottom: 2rem;
   }
 }
 
 @media (max-width: 580px){
   .header {
-    height: 100px;
+    /*height: 100px;*/
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
