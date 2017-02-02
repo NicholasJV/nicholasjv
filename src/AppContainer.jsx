@@ -18,12 +18,13 @@ export default class FlatParallax extends Component {
   toggleScroll() {
     var VH = window.innerHeight
     var paddedVH = VH + 100
+    var marginToPopup = VH - 100
     console.log('toggle hit, dir:', this.state.atBottom, ' window height:', VH)
     if(this.state.atBottom) {
       window.scrollTo({top: 0, left: 0, behavior: 'smooth'})
     // } else if (window.innerHeight < SET THIS MEDIA BREAKPOINT) {
     } else {
-      window.scrollTo({top: paddedVH, left: 0, behavior: 'smooth'})
+      window.scrollTo({top: marginToPopup, left: 0, behavior: 'smooth'})
     }
     this.setState({ atBottom: !this.state.atBottom })
   }

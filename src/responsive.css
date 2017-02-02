@@ -55,7 +55,7 @@
   .header-container {
   /*NOTE: margin-bottom must be recalculated
       * if other header layout changes are made */
-    margin-bottom: calc(100vh - 200px - 20vh - 104px);
+    margin-bottom: calc(100vh - 200px - 20vh - 102px);
     /** Margin parameters:
      *    screenSize
      *    - header margin
