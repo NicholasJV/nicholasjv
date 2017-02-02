@@ -55,11 +55,16 @@
   .header-container {
   /*NOTE: margin-bottom must be recalculated
       * if other header layout changes are made */
-    margin-bottom: calc(100vh - 7em - 20vh - 40px);
-    /** Margin explanation:
-     *  screenSize - (title + icon height)
-     *   - header margin - ABOUT title
-     */
+    margin-bottom: calc(100vh - 200px - 20vh - 104px);
+    /** Margin parameters:
+     *    screenSize
+     *    - header margin
+     *    - header height
+     *    - ABOUT title
+     **********************/
+  }
+  .abt-title {
+    padding-bottom: 36px;
   }
   .abt-col {
     margin-bottom: 1px;
@@ -68,7 +73,7 @@
   }
   .back-to-top {
     display: block;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
   }
 }
 

@@ -38,7 +38,6 @@ export default class FlatParallax extends Component {
                 <div onClick={this.toggleScroll}>
                   <h1 className="me-title">Nicholas Vanvoorthuysen</h1>
                 </div>
-                {/* <hr/> */}
                 <h2 className="icon-wrapper">
                   <a href="#" className="link">
                     <i className="fa fa-envelope link"></i>
@@ -50,7 +49,6 @@ export default class FlatParallax extends Component {
                     <i className="fa fa-github link"></i>
                   </a>
                 </h2>
-                {/* </div> */}
                 <h3 className="dev-title">software developer</h3>
                 <h1 className="dev-symbol">&#60;/></h1>
               </header>
@@ -61,9 +59,10 @@ export default class FlatParallax extends Component {
                 role="presentation"/>
             </Background>
             <div className="abt-section">
-              <h4 className="abt-title abt-text" onClick={this.toggleScroll}>
-                <span className="fa fa-angle-double-down"></span>
-                  <strong onClick={this.toggleScroll}> ABOUT </strong>
+              <h4 className="abt-title abt-text sticky" onClick={this.toggleScroll}>
+                <span onClick={this.toggleScroll}
+                      className="fa fa-angle-double-down"></span>
+                  <strong> ABOUT </strong>
                 <span className="fa fa-angle-double-down"></span>
               </h4>
               {/* <div className="row-wrapper"> */}
