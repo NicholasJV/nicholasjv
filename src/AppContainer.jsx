@@ -70,17 +70,18 @@ export default class FlatParallax extends Component {
                 <div className="row abt">
                   <div className="abt-col col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <img src={portraitIconMD} className="portrait-icon" alt=""/>
-                    <strong className="abt-col-title"> Hi! </strong>
+                    <strong className="abt-col-title"> Hi! I'm Nick. </strong>
                     <hr />
-                    <p>I'm Nick and I'm a software developer. </p>
-                    <p>With a background in engineering and video production,
-                    I am a versatile creator and determined problem-solver, excited and
-                    dedicated to building interesting user interfaces from sleek,
-                    minimal web applications to rich new media experiences. </p>
+                    <p> I'm a software developer with a background in
+                    engineering and video production.</p>
+                    <p> As a versatile creator and determined problem-solver, I am
+                    dedicated to building fresh and effective user interfaces.
+                    From sleek, minimal static sites to rich new media app experiences,
+                    I am excited about building the best of the web. </p>
                     <hr/>
                   </div>
                   <div className="abt-col col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <strong className="skills abt-col-title">CURRENT SKILLS:</strong>
+                    <strong className="skills abt-col-title">SKILLS</strong>
                     <hr />
                     <ul className="skills-list">
                       <li>Javascript/ES6</li>
