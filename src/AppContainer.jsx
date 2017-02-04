@@ -76,7 +76,7 @@ export default class FlatParallax extends Component {
                     engineering and video production.</p>
                     <p> As a versatile creator and determined problem-solver, I am
                     dedicated to building fresh and effective user interfaces.
-                    From sleek, minimal static sites to rich new media app experiences,
+                    From sleek, minimal static sites to rich, data-driven new media experiences,
                     I am excited about building the best of the web. </p>
                     <hr/>
                   </div>
