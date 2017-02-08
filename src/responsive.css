@@ -28,9 +28,6 @@
   .header {
     margin-top: 20vh;
   }
-  .abt-section {
-    /*background-color: rgba(255,255,255,0.9);*/
-  }
 }
 
 @media (max-width: 1024px), (max-height: 700px) {
@@ -96,7 +93,4 @@
     margin: auto auto;
     padding: 1px;
   }
-  /*.abt-text {
-    opacity: 0.2;
-  }*/
 }
