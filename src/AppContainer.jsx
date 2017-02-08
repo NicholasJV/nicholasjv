@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import greyWall from './image/P1010306-grey-wall.JPG'
-import portraitIconMD from './image/nv-mugshot-circle-icon100px-dither.png'
+import greyWall from './img/P1010306-grey-wall.JPG'
+import portraitIconMD from './img/nick-v-fs-256-square-small-crop.png'
 import { Parallax, Background } from 'react-parallax'
 import './main.css'
 import './responsive.css'
@@ -12,12 +12,13 @@ export default class FlatParallax extends Component {
     super()
     this.state = ({ atBottom: false })
     this.toggleScroll = this.toggleScroll.bind(this)
+    // this.toggleEmailModal = this.toggleEmailModal.bind(this)
     smoothScroll.polyfill()
   }
 
   toggleScroll() {
     var VH = window.innerHeight
-    var paddedVH = VH + 100
+    // var paddedVH = VH + 100
     var marginToPopup = VH - 100
     console.log('toggle hit, dir:', this.state.atBottom, ' window height:', VH)
     if(this.state.atBottom) {
@@ -28,6 +29,10 @@ export default class FlatParallax extends Component {
     }
     this.setState({ atBottom: !this.state.atBottom })
   }
+
+  // toggleEmailModal() {
+  //   this.setState({ emailModal: true })
+  // }
 
   render() {
     return (
@@ -40,7 +45,9 @@ export default class FlatParallax extends Component {
                   <h1 className="me-title">Nicholas Vanvoorthuysen</h1>
                 </div>
                 <h2 className="icon-wrapper">
-                  <a href="#" className="link">
+                  <a href="#0"
+                      className="link"
+                      onClick={this.toggleEmailModal}>
                     <i className="fa fa-envelope link"></i>
                   </a>
                   <a href="https://www.linkedin.com/in/nicholasvan" className="link">
