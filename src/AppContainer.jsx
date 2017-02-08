@@ -67,7 +67,7 @@ export default class FlatParallax extends Component {
                 role="presentation"/>
             </Background>
             <div className="abt-section">
-              <h4 className="abt-title abt-text sticky" onClick={this.toggleScroll}>
+              <h4 className="abt-title abt-text" onClick={this.toggleScroll}>
                 <span onClick={this.toggleScroll}
                       className="fa fa-angle-double-down"></span>
                   <strong> ABOUT </strong>

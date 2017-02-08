@@ -113,14 +113,14 @@ hr {
 .abt-title:hover {
   text-shadow: 0px 1px 1px orange;
 }
-.sticky {
+/*.sticky {
   position: -webkit-sticky;
   position: -moz-sticky;
   position: -ms-sticky;
   position: -o-sticky;
   top: 0px;
   bottom: calc(100vh - 40px)
-}
+}*/
 
 .abt.row {
   display: -webkit-flex;
