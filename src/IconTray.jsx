@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Mailto from 'react-encoded-mailto'
+import Mailto from 'react-mailto'
 
 export default class IconTray extends Component {
 
