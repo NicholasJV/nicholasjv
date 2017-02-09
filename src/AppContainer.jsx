@@ -99,10 +99,11 @@ export default class FlatParallax extends Component {
                   </h4>
                 </div>
                 <div className="abt-section-spacer"></div>
-              {/* </div> */}
+              <p style={{fontSize: '0.7em'}}>
+                site optimized for Chrome and Firefox
+              </p>
             </div>
           </Parallax>
-        {/* </div> */}
         <div className="page-bottom"></div>
       </div>
     );

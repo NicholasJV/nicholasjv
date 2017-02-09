@@ -10,10 +10,9 @@ export default class IconTray extends Component {
           <i className="fa fa-envelope link"></i>
         </Mailto>
         <a href="https://www.linkedin.com/in/nicholasvan"
-            className="fa fa-linkedin-square link">
-        </a>
-        <a href="https://github.com/NicholasJV" className="fa fa-github link">
-        </a>
+            className="fa fa-linkedin-square link"/>
+        <a href="https://github.com/NicholasJV"
+            className="fa fa-github link"/>
       </h2>
     )
   }

@@ -63,9 +63,9 @@
 }
 .link:hover {
   text-shadow: 2px 5px 1px orange;
+  text-decoration: none;
 }
 
-/* software developer */
 .dev-symbol {
   margin-top: 10px;
   font-size: 3rem;
@@ -77,6 +77,7 @@
   font-family: 'Rubik', sans-serif;
 }
 
+/* software developer */
 .dev-title {
   margin: 2px;
   font-family: 'Overpass Mono', monospace;
