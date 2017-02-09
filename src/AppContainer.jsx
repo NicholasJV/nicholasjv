@@ -48,8 +48,8 @@ export default class FlatParallax extends Component {
                   <h1 className="me-title">Nicholas Vanvoorthuysen</h1>
                 </div>
 
-                {/* IconTray */}
-
+                <IconTray/>
+{/*
                 <h2 className="icon-wrapper">
                   <a href="#0"
                       className="link"
@@ -63,7 +63,7 @@ export default class FlatParallax extends Component {
                     <i className="fa fa-github link"></i>
                   </a>
                 </h2>
-
+ */}
                 <h3 className="dev-title">software developer</h3>
                 <h1 className="dev-symbol">&#60;/></h1>
               </header>

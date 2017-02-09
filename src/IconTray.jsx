@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-// import MailTo from 'react-encoded-mailto'
-var MailTo = require('react-encoded-mailto')
+import Mailto from 'react-encoded-mailto'
+// var Mailto = require('react-encoded-mailto')
 
 export default class IconTray extends Component {
   constructor() {
@@ -15,14 +15,14 @@ export default class IconTray extends Component {
   render() {
     return (
       <h2 className="icon-wrapper">
-        <MailTo email="nick@nvanv.com" obfuscate>
+        <Mailto email="nick@nvanv.com" obfuscate={true}>
           {/* <a href="#0"
               className="link"
               onClick={this.handleEmailLink}
           > */}
             <i className="fa fa-envelope link"></i>
           {/* </a> */}
-        </MailTo>
+        </Mailto>
         <a href="https://www.linkedin.com/in/nicholasvan" className="link">
           <i className="fa fa-linkedin-square link"></i>
         </a>
