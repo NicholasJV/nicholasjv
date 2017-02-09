@@ -54,7 +54,7 @@
       * if other header layout changes are made */
     margin-bottom: calc(100vh - 200px - 20vh - 102px);
     /** Margin parameters:
-     *    screenSize
+     *    screenSize (100vh)
      *    - header margin
      *    - header height
      *    - ABOUT title
@@ -70,7 +70,8 @@
   }
   .back-to-top {
     display: block;
-    padding-bottom: 4rem;
+    font-size: 4rem;
+    padding-bottom: 8rem;
   }
 }
 

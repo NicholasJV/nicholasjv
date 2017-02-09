@@ -21,6 +21,7 @@ export default class FlatParallax extends Component {
     // var paddedVH = VH + 100
     var marginToPopup = VH - 100
     console.log('toggle hit, dir:', this.state.atBottom, ' window height:', VH)
+    console.log('y pos scroll: ', window.scrollY)
     if(this.state.atBottom) {
       window.scrollTo({top: 0, left: 0, behavior: 'smooth'})
     // } else if (window.innerHeight < SET THIS MEDIA BREAKPOINT) {
@@ -107,7 +108,10 @@ export default class FlatParallax extends Component {
                     <hr/>
                   </div>
                   <h4 className="abt-col-title back-to-top"
-                      onClick={this.toggleScroll}> - back to top -</h4>
+                      onClick={this.toggleScroll}
+                  >
+                      <span className="fa fa-angle-double-up"></span>
+                  </h4>
                 </div>
               {/* </div> */}
             </div>
