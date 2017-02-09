@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import MailTo from 'react-encoded-mailto'
+// import MailTo from 'react-encoded-mailto'
+var MailTo = require('react-encoded-mailto')
 
 export default class IconTray extends Component {
   constructor() {
