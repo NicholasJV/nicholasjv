@@ -6,7 +6,7 @@ export default class IconTray extends Component {
   render() {
     return (
       <h2 className="icon-wrapper">
-        <Mailto email="nick@nvanv.com" className="link" obfuscate={true}>
+        <Mailto email="nick@nvanv.com" className="" obfuscate={true}>
           <i className="fa fa-envelope link"></i>
         </Mailto>
         <a href="https://www.linkedin.com/in/nicholasvan"
