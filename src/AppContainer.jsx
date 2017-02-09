@@ -14,7 +14,6 @@ export default class FlatParallax extends Component {
     super()
     this.state = ({ atBottom: false })
     this.toggleScroll = this.toggleScroll.bind(this)
-    // this.toggleEmailModal = this.toggleEmailModal.bind(this)
     smoothScroll.polyfill()
   }
 
@@ -33,10 +32,6 @@ export default class FlatParallax extends Component {
     this.setState({ atBottom: !this.state.atBottom })
   }
 
-  // toggleEmailModal() {
-  //   this.setState({ emailModal: true })
-  // }
-
   render() {
     return (
       <div className="App">
@@ -47,24 +42,8 @@ export default class FlatParallax extends Component {
                 <div onClick={this.toggleScroll}>
                   <h1 className="me-title">Nicholas Vanvoorthuysen</h1>
                 </div>
-
                 <IconTray/>
-{/*
-                <h2 className="icon-wrapper">
-                  <a href="#0"
-                      className="link"
-                      onClick={this.toggleEmailModal}>
-                    <i className="fa fa-envelope link"></i>
-                  </a>
-                  <a href="https://www.linkedin.com/in/nicholasvan" className="link">
-                    <i className="fa fa-linkedin-square link"></i>
-                  </a>
-                  <a href="https://github.com/NicholasJV" className="link">
-                    <i className="fa fa-github link"></i>
-                  </a>
-                </h2>
- */}
-                <h3 className="dev-title">software developer</h3>
+                <h3 className="dev-title">developer</h3>
                 <h1 className="dev-symbol">&#60;/></h1>
               </header>
             </div>
@@ -119,6 +98,7 @@ export default class FlatParallax extends Component {
                       <span className="fa fa-angle-double-up"></span>
                   </h4>
                 </div>
+                <div className="abt-section-spacer"></div>
               {/* </div> */}
             </div>
           </Parallax>

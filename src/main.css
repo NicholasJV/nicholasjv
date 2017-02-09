@@ -67,7 +67,8 @@
 
 /* software developer */
 .dev-symbol {
-  font-size: 5rem;
+  margin-top: 10px;
+  font-size: 3rem;
   /**
    * Font options:
    */
@@ -100,6 +101,10 @@ hr {
   border-radius: 2px;
   max-width: 1200px;
   text-align: center;
+}
+
+.abt-section-spacer {
+  padding-bottom: 5rem;
 }
 
 .abt-title {
