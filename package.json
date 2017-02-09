@@ -9,6 +9,7 @@
     "flexboxgrid": "^6.3.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
+    "react-encoded-mailto": "^0.0.6",
     "react-parallax": "^1.2.2",
     "smoothscroll-polyfill": "^0.3.4"
   },

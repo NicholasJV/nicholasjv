@@ -6,6 +6,8 @@ import './main.css'
 import './responsive.css'
 import 'flexboxgrid'
 import smoothScroll from 'smoothscroll-polyfill'
+// Components
+import IconTray from './IconTray'
 
 export default class FlatParallax extends Component {
   constructor(){
@@ -45,6 +47,9 @@ export default class FlatParallax extends Component {
                 <div onClick={this.toggleScroll}>
                   <h1 className="me-title">Nicholas Vanvoorthuysen</h1>
                 </div>
+
+                {/* IconTray */}
+
                 <h2 className="icon-wrapper">
                   <a href="#0"
                       className="link"
@@ -58,6 +63,7 @@ export default class FlatParallax extends Component {
                     <i className="fa fa-github link"></i>
                   </a>
                 </h2>
+
                 <h3 className="dev-title">software developer</h3>
                 <h1 className="dev-symbol">&#60;/></h1>
               </header>
